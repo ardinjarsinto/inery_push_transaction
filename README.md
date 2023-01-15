@@ -1,4 +1,4 @@
-### Wajib ada
+### Hal-hal yang diperlukan
 - Install curl
 ```shell
 sudo apt-get install curl
