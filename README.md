@@ -83,6 +83,10 @@ node run inerytoken_read
 ```shell
 node run inerytoken_update
 ```
+- Transfer token data via api 
+```shell
+node run inerytoken_transfer
+```
 - Issue token data via api 
 ```shell
 node run inerytoken_issue
