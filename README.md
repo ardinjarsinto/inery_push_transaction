@@ -43,8 +43,7 @@ nano .env
 - Change directory
 ```shell
 cd
-cd ~/inery_push_transaction
-cd ~/inerycrud
+cd ~/inery_push_transaction/inerycrud
 ```
 
 - Create contract data via api 
@@ -69,8 +68,7 @@ node run inerycrud_delete
 - Change directory
 ```shell
 cd
-cd ~/inery_push_transaction
-cd ~/inerytoken
+cd ~/inery_push_transaction/inerytoken
 ```
 
 - Create token data via api 
