@@ -31,7 +31,7 @@ cd ~/inery_push_transaction
 ```shell
 npm install
 ```
-#### Iet your Inery Account Information
+#### Set your Inery Account Information
 ```shell
 cp .env-sample .env
 ```
