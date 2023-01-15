@@ -40,46 +40,62 @@ nano .env
 ```
 
 #### RPC Crud Contract
-- Create data via api 
+- Change directory
 ```shell
-test
+cd
+cd ~/inery_push_transaction
+cd ~/inerycrud
 ```
 
-- Create data via api 
+- Create contract data via api 
 ```shell
-test
+node run inerycrud_create
 ```
 
-- Create data via api 
+- Read contract data via api 
 ```shell
-test
+node run inerycrud_read
 ```
-
-- Create data via api 
+- Update contract data via api 
 ```shell
-test
+node run inerycrud_update
+```
+- Delete contract data via api 
+```shell
+node run inerycrud_delete
 ```
 
 #### RPC Token Transaction
-
-- Create data via api 
+- Change directory
 ```shell
-test
+cd
+cd ~/inery_push_transaction
+cd ~/inerytoken
 ```
 
-- Create data via api 
+- Create token data via api 
 ```shell
-test
+node run inerytoken_create
 ```
-
-- Create data via api 
+- Read token data via api 
 ```shell
-test
+node run inerytoken_read
 ```
-
-- Create data via api 
+- Update token data via api 
 ```shell
-test
+node run inerytoken_update
+```
+- Issue token data via api 
+```shell
+node run inerytoken_issue
+```
+- Retire token data via api 
+```shell
+node run inerytoken_retire
+```
+- Delete token data via api 
+```shell
+node run inerytoken_delete
 ```
 
 ________________________
