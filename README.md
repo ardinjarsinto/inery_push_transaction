@@ -1,10 +1,17 @@
-### wajib ada
-- nodejs
+### Wajib ada
+- Install curl
 ```shell
-sudo apt install npm
+sudo apt-get install curl
+
 ```
 
-- NPM
+- Install nodejs via curl
+```shell
+curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+```
+
+- Install NPM
 ```shell
 sudo apt install npm
 ```
